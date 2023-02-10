@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06. Stack Applications.md",
+                "file": "6. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07. Implementation of Post-Fix evaluation in Java.md",
+                "file": "7. Implementation of Post-Fix evaluation in Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09. Queue Data Structure.md",
+                "file": "6. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09. Queue Data Structure.md",
+                "file": "9. Queue Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02. Abstract Data Type (ADT).md",
+                "file": "2. Abstract Data Type (ADT).md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03. Array and Array Operations.md",
+                "file": "3. Array and Array Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03. Two Dimentional Arrays in Java.md",
+                "file": "3. Two Dimentional Arrays in Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04. Sorting and Searching Operations on Arrays.md",
+                "file": "4. Sorting and Searching Operations on Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -263,7 +263,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05. Stack Data Structure (ADT).md",
+                "file": "5. Stack Data Structure (ADT).md",
                 "mode": "source",
                 "source": false
               }
@@ -275,7 +275,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06. Stack Applications.md",
+                "file": "6. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "09. Queue Data Structure.md",
+                "file": "6. Stack Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "09. Queue Data Structure.md",
+                "file": "6. Stack Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09. Queue Data Structure.md"
+                "file": "6. Stack Applications.md"
               }
             }
           }
@@ -412,15 +412,15 @@
   },
   "active": "66c1971c78578602",
   "lastOpenFiles": [
-    "10. Implementing Queue using Array.md",
-    "09. Queue Data Structure.md",
-    "08. Checking for Balanced parenthesis in an expression.md",
-    "07. Implementation of Post-Fix evaluation in Java.md",
-    "06. Stack Applications.md",
-    "05. Stack Data Structure (ADT).md",
-    "04. Sorting and Searching Operations on Arrays.md",
-    "03. Two Dimentional Arrays in Java.md",
-    "03. Array and Array Operations.md",
-    "02. Abstract Data Type (ADT).md"
+    "4. Sorting and Searching Operations on Arrays.md",
+    "3. Array and Array Operations.md",
+    "3. Two Dimentional Arrays in Java.md",
+    "2. Abstract Data Type (ADT).md",
+    "1. Introduction to Data Structures.md",
+    "21. Binary Tree Operations.md",
+    "20. Binary Search Tree.md",
+    "19. Tree Data Structure.md",
+    "18. Loop Detection In Linked List.md",
+    "17. Doubly Linked List.md"
   ]
 }
