@@ -1,0 +1,15 @@
+## Circular Queue is a type of queue data structure where the last position in the array is connected to the first position, making it a circular buffer. In this implementation, a queue is represented as an array of elements and two pointers, one pointing to the front of the queue and another pointing to the back.
+
+### It is considered better than a linear queue in certain scenarios where reutilization of the queue space is important. For example, in real-time systems, where resources are limited, and it is essential to maximize utilization of memory, circular queues are more suitable, as they allow for full utilization of the queue space by reusing the space that was previously occupied by dequeued elements, making it possible to insert new elements even if the queue is full, thus avoiding overflow conditions.
+
+### In this implementation of a linear queue, once the queue is full, and you try to add another element to it, the `enqueue` method will simply return without adding the element to the queue. This means that the memory space for that element is not utilized and is wasted.
+
+### For example, consider a queue with a capacity of 5 elements. If all 5 elements are added to the queue, any subsequent additions will not be possible as the queue is full. The memory space for those additional elements is wasted.
+
+### However, in a circular queue, the memory is utilized to the fullest by overwriting the elements that have already been processed when the queue is full. Elements will be overwritten even if they have not been processed. The main idea behind a circular queue is to utilize the available memory space efficiently. Once the rear of the queue reaches the end of the memory space, it will start overwriting elements from the front of the queue.
+
+### This means that if elements are still in the process of being processed, and they are overwritten, they will be lost and cannot be retrieved. That's why it's important to ensure that elements are processed in a timely manner before they get overwritten.
+
+### This is done by keeping track of both the front and the rear of the queue. The rear of the queue indicates the position at which the next element will be inserted, while the front of the queue indicates the position from where the next element will be removed.
+
+### Its Operations are the same as the queue ADT we discussed, just the implementation is different:

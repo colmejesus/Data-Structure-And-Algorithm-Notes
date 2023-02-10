@@ -1,0 +1,41 @@
+## Loop detection in linked list is a process of identifying whether a linked list contains a loop or not. A linked list is said to contain a loop if it's possible to traverse the list indefinitely, starting from some node.
+
+![[Linked List With loop vs no loop.jpeg]]
+
+## One common approach to detecting loops in linked lists is the Floyd's cycle-finding algorithm, also known as "tortoise and the hare" algorithm. The idea is to have two pointers moving through the linked list at different speeds. The slow pointer moves one step at a time, while the fast pointer moves two steps at a time. If there is a loop in the linked list, the fast pointer will eventually catch up to the slow pointer and the two pointers will meet at some node.
+
+![[flyod's algorithm.png]]
+
+## Here is an example code to implement loop detection in linked list using Floyd's cycle-finding algorithm in Java:
+
+```java
+public static boolean detectLoop(Node head) {
+    // Create two pointers, slow and fast, both initialized to head of the linked list
+    Node slow = head;
+    Node fast = head;
+    
+    // Check if there's a loop in the linked list
+    while (fast != null && fast.next != null) {
+        // Move the slow pointer one step at a time
+        slow = slow.next;
+        // Move the fast pointer two steps at a time
+        fast = fast.next.next;
+        
+        // If the slow pointer and fast pointer meet, there's a loop in the linked list
+        if (slow == fast) {
+            return true;
+        }
+    }
+    // If the fast pointer reaches the end of the linked list, there's no loop
+    return false;
+}
+
+```
+
+### Explanation:
+
+### -  In this code, we use two pointers, `slow` and `fast`, both initially set to the head of the linked list.
+### -   We use a `while` loop to iterate through the linked list until either the `fast` pointer reaches the end of the list (`fast == null`) or the next node of the fast pointer is `null` (`fast.next == null`).
+### -   Within the loop, we move the `slow` pointer one step at a time (`slow = slow.next`) and the `fast` pointer two steps at a time (`fast = fast.next.next`).
+### -   If the `slow` and `fast` pointers ever meet (`if (slow == fast)`), this means there is a loop in the linked list, and we return `true`.
+### -   If the `fast` pointer reaches the end of the list without the `slow` and `fast` pointers meeting, this means there is no loop, and we return `false`.

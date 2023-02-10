@@ -1,0 +1,90 @@
+## A tree is a hierarchical data structure composed of nodes, where each node has a value and a parent-child relationship to other nodes. The node at the top of the tree is called the root node, while the nodes without children are referred to as leaf nodes. Each node can have one parent node and multiple child nodes. The relationship between parent and child nodes is called an edge. The height of the tree is defined as the number of edges from the root node to the farthest leaf node. Trees can be used to represent hierarchical relationships between elements and are commonly used in computer science for searching, sorting, and storing data efficiently.
+
+## The terms associated with tree data structure are:
+
+### 1.  Root: The top node in the tree, often considered the parent of all other nodes in the tree.
+    
+### 2.  Child: A node directly connected to another node when moving away from the root.
+    
+### 3.  Parent: A node directly connected to another node when moving towards the root.
+    
+### 4.  Sibling: Nodes that share the same parent node.
+    
+### 5.  Leaf: A node with no child nodes.
+    
+### 6.  Subtree: A tree within a tree, with its own root node, that contains all its child nodes.
+    
+### 7.  Depth: The distance of a node from the root node.
+    
+### 8.  Height: The distance of a node from its furthest leaf node.
+    
+### 9.  Degree: The number of children of a node.
+    
+### 10.  Edge: The connection between two nodes.
+    
+### 11.  Path: A sequence of nodes connected by edges.
+    
+### 12.  Ancestor: A node reachable by moving upwards from a given node towards the root.
+    
+### 13.  Descendant: A node reachable by moving downwards from a given node towards its leaves.
+    
+### 14.  Level: The number of edges in a path from the root to a node.
+    
+### 15.  Internal node: A node with at least one child.
+    
+### 16.  External node: A node with no children, also known as a leaf node.
+
+![[Treedatastructure.png]]
+
+## Trees have many real-life applications. Some common applications of tree data structure include:
+
+### 1.  File systems: In computer file systems, the tree structure is used to organize files and directories.
+    
+### 2.  HTML Document: The structure of an HTML document can be represented using a tree structure, with each tag and its attributes forming a node in the tree.
+    
+### 3.  Expression Trees: Expression trees are used to represent mathematical expressions.
+    
+### 4.  Decision Trees: In machine learning, decision trees are used for classification and prediction.
+    
+### 5.  Graphs: Trees are a special case of graph data structure and can be used to solve graph-related problems such as finding the shortest path or minimum spanning tree.
+    
+### 6.  Routing algorithms: Tree-based algorithms are used in networking to find the best path for data to flow from source to destination.
+    
+### 7.  Database indexing: Trees are used to create indexes for databases to speed up the search for data.
+    
+### 8.  AI game-playing: Trees are used to model decision-making in AI game-playing, such as chess and checkers.
+    
+
+### These are some common applications of tree data structures.
+
+## Skewed Trees:
+
+### Skewed trees are trees in which one of the branches is much longer than the other branches, leading to an imbalanced structure. This can result in poor performance for tree operations and algorithms, as the height of the tree becomes much larger than in a balanced tree. There are different types of skewed trees, including left-skewed trees and right-skewed trees, depending on which side of the tree the longer branch is on.
+
+![[Skewed Trees.png]]
+
+## Binary Trees:
+
+### A Binary Tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. The topmost node in a binary tree is called the root node, and the bottom-most nodes are called leaves. The order in which the child nodes are stored in a binary tree influences its shape and is used to classify binary trees into different types like full binary tree, complete binary tree, etc.
+
+## General Binary Tree VS Binary Tree:
+
+![[General-Tree-vs-Binary-Tree.png]]
+
+## Full Binary Tree VS Complete Binary Tree:
+
+## A full binary tree is a binary tree in which every node has either 0 or 2 children.
+
+### A complete binary tree is a binary tree in which all the levels are completely filled except possibly the last level, and the last level has all keys as left as possible.
+
+#### Here's a pictorial representation of Full VS Complete Binary Tree:
+
+![[full binary tree vs complete binary tree.png]]
+
+## Properties of Binary Trees:
+
+### The number of nodes in a binary tree at any height can be calculated using the formula `2^(h) - 1`, where `h` is the height of the binary tree. This formula assumes that the binary tree is complete and all the levels except the last level are completely filled. In case the binary tree is not complete, the number of nodes can still be calculated by counting the number of nodes in the tree.
+
+
+
+![[calculating height and depth of tree.jpg]]

@@ -1,0 +1,31 @@
+Binary search trees are another variant of a Binary Tree, which makes searching and retrieval much easier by arranging its nodes in a particular order. In a Binary search tree, each node has a value and the value of elements to the left of that node is smaller and value of the element to the right of that node is bigger compared to that node, this way, when searching for a particular number in a Binary search tree you can eliminate half of the nodes at each step, making search and retrieval more efficient. 
+
+Here's an example of a Binary search tree:
+
+![[binary_search_tree_example.png]]
+
+There are four common types of traversal in a Binary Search Tree (BST):
+
+1.  In-order traversal: Visits the nodes in ascending order by visiting the left subtree first, then the root node, and finally the right subtree. 
+    
+2.  Pre-order traversal: Visits the root node first, then the left subtree, and finally the right subtree.
+    
+3.  Post-order traversal: Visits the left subtree first, then the right subtree, and finally the root node.
+    
+4.  Level-order traversal (also known as breadth-first traversal): Visits the nodes level by level from left to right, where all the nodes at a given level are visited before moving on to the next level.
+
+**Side note**: You can remember all of the above-mentioned traversal orders easily by remembering one thing that, 'In, pre and post' prefixes in all three traversals, all of them talk about the position of the Root node, therefore we can infer that 'In' in In-order traversal means 'In-Between' i.e. the root will be in between left and right nodes (Left, Root, Right), 'pre' in Pre-order traversal means the root will come before left and right (Root, Left, Right) and 'post' in Post-order traversal will mean that root will come after left and right (Left, Right, Root)
+
+Here's how these In-order, Pre-order and Post-order traversals place:
+
+![[Preorder-from-Inorder-and-Postorder-traversals.jpg]]
+
+Here's how Level-order traversals take place:
+
+![[level order travelsal.jpg]]
+
+Here's a video explaining how to find out Pre, In and, Post Order Traversal values in a tree with a simple trick:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WLvU5EQVZqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+

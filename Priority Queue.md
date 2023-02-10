@@ -1,0 +1,27 @@
+## A priority queue is an abstract data type (ADT) where each element is assigned a priority, and the elements are served in order of priority. In a priority queue implemented using two separate lists, one list is used to store values and the other is used to store priorities. 
+
+## Element having the highest priority will be removed/processed first and the lowest priority removed/processed last, if two elements having same priority then they will be removed according to the FIFO order.
+
+![[two lists priority queue unsig arrays.png]]
+
+## There are two types of priority queues:
+
+### 1.  Max Priority Queue: In this type of priority queue, the element with the highest value  will have the highest priority.
+    
+### 2.  Min Priority Queue: In this type of priority queue, the element with the lowest value will have the lowest priority.
+    
+
+### Applications of priority queue include:
+
+### 1.  Task Scheduling: To manage tasks in a computer system, a priority queue is used to assign priorities to tasks and schedule them based on their priorities.
+    
+### 2.  Resource Allocation: In resource allocation systems, a priority queue is used to allocate resources to different requests based on their priorities.
+    
+### 3.  Heap Sort: A priority queue can be used to implement the heap sort algorithm, which is an efficient sorting algorithm.
+    
+### 4.  Huffman Encoding: A priority queue is used to build a Huffman tree, which is used for data compression.
+    
+### 5.  Pathfinding: In graph theory, a priority queue is used in algorithms like Dijkstra's algorithm to find the shortest path between two nodes.
+    
+
+### In general, priority queue is used in situations where elements need to be processed based on their priorities, rather than in the order they were added.

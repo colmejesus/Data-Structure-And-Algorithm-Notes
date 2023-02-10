@@ -1,0 +1,157 @@
+## The 2-dimensional array or 2D array can be seen like a table, i.e. it has rows and columns unlike 1D array which is a single row of numbers. Here's a logical representation of a 2D array:
+
+
+
+![[types-of-arrays-2d-array.png]]
+
+
+## Any element in a 2D array can be accessed by mentioning both the row and column indices like this:
+
+``` java
+arrayName [i][j] // here 'i' is the row index and 'j' is the column index
+
+// Element in the third row and second column can be accessed using:
+
+arrayName[2][1]
+
+```
+
+## 2D Array Representation
+
+### Row Major Representation:
+
+![[Row_major_representation.jpg]]
+
+
+## You can calculate the address of any element in a 2D array in row major representation similarly to a 1D array, by using a mathematical formula, if you know the base address of the array, the size of each element, row and column index of the element you want to calculate the address for and total number of rows and columns of the array. The formula for calculating the address is:
+
+### Base Address + Size of an element x (Row index of the element you want to calculate the address of  x Total number of columns + Column index of the element you want to calculate the address of)
+
+### Let the base address = 2000, 1 is stored in 2000, 2 is stored in 2004, 3 is stored in 2008 and so on...
+
+### Here, the number of rows and column are the same, i.e. 3 and size of each element is 4 bytes.
+
+### Therefore, to calculate the base address of say ``` A[1][2] = 2000 + 4 x (1 [row index] x 3 [number of column] + 2[Column index]) = 2020 ```
+
+
+
+
+## Column Major Representation:
+
+![[Column_major_representation.jpg]]
+
+## You can similarly calculate address of any 2D array in column major representation if you have the same information about the array mentioned above, here are the formula for calculating the address in column major representation:
+
+### Base Address + Size of an element x (Column index of the element you want to calculate the address of  x Total number of rows + row index of the element you want to calculate the address of)
+
+### Therefore, to calculate the base address of say ``` A[2][0] = 2000 + 4 x (2 [row index] x 3 [number of column] + 0[Column index]) = 2024 ```
+
+### In languages like C/C++ arrays are stored in row major representation, but java doesn't store multidimensional arrays in either row major or column major form, it rather stores it in the form of 'arrays inside an array' 
+
+### Pictorial representation of how java stores its arrays:
+
+![[Array of arrays.png]]
+
+### Once you know that, you know that (say) `a[2][3]` means "Get the array referenced by the entry at index `2` of `a`, then get the entry referenced by index `3` of that subordinate array."
+
+### Here's another example: 
+
+### A = {{1,2,3,}, {5,7,23,4}, {45,5,67,8,9}, {9,23,4,55}}
+
+#### Suppose we want to retrieve the element mentioned above in the example `a[2][3]` we'll go to the array at 2nd index which in our case is {45,5,67,8,9} and then we will go to the element at 3rd index which is integer 8. 
+
+## There is one more thing to note that while an array is stored in a contiguous block of memory, in a 2D array the elements in subordinate arrays i.e. arrays inside the array store object references to completely separate, unrelated blocks of memory. 
+
+### Here's how to declare a 2D array in Java
+
+```java
+DataType[][] Arrayname; // Declaring a 2D array
+
+ArrayName = new Datatype[r][c]; // This statement creates a 2D array of the name 'ArrayName' with r rows and c columns
+
+```
+
+
+### Making a 2D Integer Array in Java
+
+```java
+int[][] numArray;
+
+numArray = new int[2][3];
+
+```
+
+### Initializing a 2D array:
+
+``` java
+int[][] a = {{1,2,3}, {4,5,6}, {7, 8, 9}}
+
+```
+
+### Accessing 2D array in Java with just one dimension:
+
+#### As we have discussed, java treats 2D arrays as array of arrays we can declare a 2D array with just one dimension:
+
+```java
+int[][] exampleArray = new int[4][]; // This will create an arrays with four rows and undefined number of columns
+```
+
+
+### And we can then separately initialize 4 one dimensional arrays after declaring a 2D array with just rows(in the above example), the syntax will look like this:
+
+```java
+exampleArray[0] = new int[1];
+exampleArray[0] = new int[2];
+exampleArray[0] = new int[3];
+exampleArray[0] = new int[4];
+```
+
+### The output (array) will look like this:
+
+```java
+[0]
+[0][0]
+[0][0][0]
+[0][0][0][0]
+```
+
+### Declaring and initializing a heterogeneous 2D array:
+
+### Since java allows us to create arrays of Object type, we can make use of this feature and create a heterogeneous multidimensional array (array of arrays composing of arrays which hold different datatype)
+
+```java
+Object[][] HetArray = new Object[3][];
+HetArray[0] = new Integer[]{1,2,3,4};
+HetArray[1] = new Char[]{'A', 'B', 'C'};
+HetArray[2] = new Double[]{22.9, 12.4};
+
+```
+
+### The output will look like this:
+
+```java
+[[1,2,3,4], 
+ [A, B, C], 
+ [22.9, 12.4]]
+```
+
+### Printing all the elements of a 2D array using for loop:
+
+```java
+class MultiArray {
+   public static void main(String[] args) {
+
+       int[][] numArray = {{1,2,3,4}, {5,6,7}, {8,9}};
+
+       for(int i = 0; i<numArray.length;i++) {
+          for(int j=0; j<numArray[i].length; j++) {
+             System.out.println(numArray[i][j]);
+             System.out.println();
+}
+}
+}
+}
+```
+
+
+

@@ -1,0 +1,60 @@
+## Bubble Sort: Bubble Sort is a sorting algorithm which compares each element of an array, starting with the first element, to the element adjacent to it. 
+
+## For example suppose you have an array of size 5, in the first pass you will compare the first element with the second, the second element with the third, third with fourth and fourth with fifth, therefore in the first pass it made 4 comparisons, and it will keep swapping the element in the left with the element in the right if the left element is smaller, by doing so the largest number will 'bubble' to the last position in the array after the first iteration. In the first pass it made 4 comparisons.
+
+## In its second pass, it will again compare first element with second, second with third, third with fourth, but it won't compare fourth with fifth since fifth element is the largest as it 'bubbled' to the last index as discussed above. Hence, in the second pass, it made 3 comparisons. 
+
+## In its third pass, it will compare first element to second, second to third but leave the 4th and 5th comparisons since they are already sorted in the previous passes. Hence, in the third pass, it made 2 comparisons.
+
+## In its fourth pass, it will compare first element to second and leave the remaining comparisons since they are already sorted, hence this time it made only 1 comparison. 
+
+## By adding the comparisons it had to make in all the passes mentioned above to sort the array, we get 4+3+2+1 = 10 total comparisons, which is 5^2 (note: this is the worst case scenario, and it is not necessary that it will absolutely take these many comparisons in order to sort an array every time) hence we can assume at worst, for an array of size 'n' it might take n^2 comparisons to sort the array. 
+
+### Here's a pictorial representation, trying to explain how bubble sort works:
+
+![[bubble-short.png]]
+
+## Implementing Bubble Sort in Java:
+
+```java
+public class bubbleSort{
+public void sort(int[] arr){
+
+for(int i=0; i<arr.length; i++){
+   for(int j = 1; j<arr.length; j++){
+   if(arr[j]<arr[j-1]){
+   var temp = arr[j];
+   arr[j]=arr[j-1];
+   arr[j-1]=temp;
+   }
+   }
+}
+```
+
+# Linear Search:
+
+## It is a very simple but inefficient searching algorithm used to find a specific element in an array. It works by comparing each element in the array with the element you are searching for, starting with the element at 0th index and going all the way to the last element at index 'n' if need be, therefore we can assume that it might take 'n' number of comparisons to find the element we are looking for which makes the algorithm very inefficient, it can still be used to search small sized arrays since it is easy to code but for an array that has a lot of elements it becomes inefficient.
+
+## Suppose we're looking for an element K which is = 17, in an array, here's how linear search will work, the algorithm will start comparing K with each element of the array starting with the first element until it finds out the element which is equal to K i.e. 17, once it does, it stops the search. 
+
+
+![[working-on-linear-search-3.png]]
+
+## Implementing Linear Search in Java:
+
+### Suppose we need to find the number 7 in the array declared below:
+
+
+```java
+int [] arr2 = {1, 45, 66, 3, 7, 9, 21, 76}
+for(int i = 0; i<arr2.length; i++) {
+   if(i==7){
+   System.out.println("Number is found");
+   
+   } else {
+     System.out.println("Number not found");
+   }
+}
+
+```
+
