@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "23 Binary Tree Implementation (In progress).md",
+                "file": "07. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -358,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "23 Binary Tree Implementation (In progress).md",
+                "file": "07. Stack Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "23 Binary Tree Implementation (In progress).md",
+                "file": "07. Stack Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "23 Binary Tree Implementation (In progress).md"
+                "file": "07. Stack Applications.md"
               }
             }
           }
@@ -422,12 +422,12 @@
   },
   "active": "e374a6c4563e7ccc",
   "lastOpenFiles": [
+    "23 Binary Tree Implementation (In progress).md",
     "07. Stack Applications.md",
     "05. Stack Data Structure (ADT).md",
     "06. Sorting and Searching Operations on Arrays.md",
     "04. Two Dimentional Arrays in Java.md",
     "01. Introduction to Data Structures.md",
-    "23 Binary Tree Implementation (In progress).md",
     "22. Binary Tree Operations.md",
     "03. Array and Array Operations.md",
     "02. Abstract Data Type (ADT).md",
