@@ -12,5 +12,8 @@
     "inorder",
     "levelorder"
   ],
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
