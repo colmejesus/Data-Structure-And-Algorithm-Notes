@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack Applications.md",
+                "file": "6. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementation of Post-Fix evaluation in Java.md",
+                "file": "7. Implementation of Post-Fix evaluation in Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tree Data Structure.md",
+                "file": "19. Tree Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binary Search Tree.md",
+                "file": "20. Binary Search Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binary Tree Operations.md",
+                "file": "6. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Queue Data Structure.md",
+                "file": "9. Queue Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementing Queue using Array.md",
+                "file": "10. Implementing Queue using Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Circular Queue (ADT).md",
+                "file": "11. Circular Queue (ADT).md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementation of Circular Queue.md",
+                "file": "12. Implementation of Circular Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Priority Queue.md",
+                "file": "13. Priority Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linked List (ADT).md",
+                "file": "14. Linked List (ADT).md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementing Linked List.md",
+                "file": "15. Implementing Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cicrular Linked List.md",
+                "file": "16. Cicrular Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Doubly Linked List.md",
+                "file": "17. Doubly Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loop Detection In Linked List.md",
+                "file": "18. Loop Detection In Linked List.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tree Data Structure.md",
+                "file": "19. Tree Data Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstract Data Type (ADT).md",
+                "file": "2. Abstract Data Type (ADT).md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Array and Array Operations.md",
+                "file": "3. Array and Array Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Dimentional Arrays in Java.md",
+                "file": "3. Two Dimentional Arrays in Java.md",
                 "mode": "source",
                 "source": false
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting and Searching Operations on Arrays.md",
+                "file": "4. Sorting and Searching Operations on Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -263,7 +263,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack Data Structure (ADT).md",
+                "file": "5. Stack Data Structure (ADT).md",
                 "mode": "source",
                 "source": false
               }
@@ -275,7 +275,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack Applications.md",
+                "file": "6. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Binary Tree Operations.md",
+                "file": "6. Stack Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Binary Tree Operations.md",
+                "file": "6. Stack Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Binary Tree Operations.md"
+                "file": "6. Stack Applications.md"
               }
             }
           }
@@ -412,15 +412,15 @@
   },
   "active": "66c1971c78578602",
   "lastOpenFiles": [
-    "Binary Search Tree.md",
-    "Tree Data Structure.md",
-    "Checking for Balanced parenthesis in an expression.md",
-    "Loop Detection In Linked List.md",
-    "Doubly Linked List.md",
-    "Cicrular Linked List.md",
-    "Linked List (ADT).md",
-    "Implementing Linked List.md",
-    "Priority Queue.md",
-    "Implementation of Circular Queue.md"
+    "4. Sorting and Searching Operations on Arrays.md",
+    "3. Array and Array Operations.md",
+    "3. Two Dimentional Arrays in Java.md",
+    "2. Abstract Data Type (ADT).md",
+    "1. Introduction to Data Structures.md",
+    "21. Binary Tree Operations.md",
+    "20. Binary Search Tree.md",
+    "19. Tree Data Structure.md",
+    "18. Loop Detection In Linked List.md",
+    "17. Doubly Linked List.md"
   ]
 }
