@@ -14,6 +14,6 @@
   ],
   "attachmentFolderPath": "_attachments",
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "useMarkdownLinks": true
 }

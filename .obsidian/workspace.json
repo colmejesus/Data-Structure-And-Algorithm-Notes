@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06. Sorting and Searching Operations on Arrays.md",
+                "file": "22. Binary Tree Operations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e374a6c4563e7ccc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07. Stack Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -280,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -346,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06. Sorting and Searching Operations on Arrays.md",
+                "file": "07. Stack Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -363,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06. Sorting and Searching Operations on Arrays.md",
+                "file": "07. Stack Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +398,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06. Sorting and Searching Operations on Arrays.md"
+                "file": "07. Stack Applications.md"
               }
             }
           }
@@ -408,17 +420,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "66c1971c78578602",
+  "active": "e374a6c4563e7ccc",
   "lastOpenFiles": [
     "05. Stack Data Structure (ADT).md",
+    "06. Sorting and Searching Operations on Arrays.md",
+    "07. Stack Applications.md",
+    "04. Two Dimentional Arrays in Java.md",
+    "01. Introduction to Data Structures.md",
+    "23. Binary Tree Implementation.md",
     "22. Binary Tree Operations.md",
-    "21. Binary Search Tree.md",
-    "20. Tree Data Structure.md",
-    "19. Loop Detection In Linked List.md",
-    "18. Doubly Linked List.md",
-    "17. Cicrular Linked List.md",
-    "16. Implementing Linked List.md",
-    "15. Linked List (ADT).md",
-    "14. Priority Queue.md"
+    "03. Array and Array Operations.md",
+    "02. Abstract Data Type (ADT).md",
+    "_attachments/bubble-short.png"
   ]
 }
