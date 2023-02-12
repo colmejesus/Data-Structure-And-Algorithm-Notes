@@ -73,7 +73,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12. Circular Queue (ADT).md",
+                "file": "23 Binary Tree Implementation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ee3c6cf17d80bfc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "590e7811ea23e0f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "24. Binary Search Deletion.md",
                 "mode": "source",
                 "source": false
               }
@@ -292,7 +312,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -358,7 +378,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12. Circular Queue (ADT).md",
+                "file": "24. Binary Search Deletion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +395,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12. Circular Queue (ADT).md",
+                "file": "24. Binary Search Deletion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -398,7 +418,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12. Circular Queue (ADT).md"
+                "file": "24. Binary Search Deletion.md"
               }
             }
           }
@@ -420,17 +440,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e374a6c4563e7ccc",
+  "active": "590e7811ea23e0f0",
   "lastOpenFiles": [
-    "11. Implementing Queue using Array.md",
-    "12. Circular Queue (ADT).md",
-    "07. Stack Applications.md",
-    "23 Binary Tree Implementation (In progress).md",
-    "05. Stack Data Structure (ADT).md",
-    "06. Sorting and Searching Operations on Arrays.md",
-    "04. Two Dimentional Arrays in Java.md",
-    "01. Introduction to Data Structures.md",
+    "Untitled.md",
+    "24. Binary Search Deletion.md",
+    "23 Binary Tree Implementation.md",
     "22. Binary Tree Operations.md",
-    "03. Array and Array Operations.md"
+    "21. Binary Search Tree.md",
+    "12. Circular Queue (ADT).md",
+    "11. Implementing Queue using Array.md",
+    "07. Stack Applications.md",
+    "05. Stack Data Structure (ADT).md",
+    "06. Sorting and Searching Operations on Arrays.md"
   ]
 }

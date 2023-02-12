@@ -10,7 +10,8 @@
     "RootRef",
     "postorder",
     "inorder",
-    "levelorder"
+    "levelorder",
+    "migh"
   ],
   "attachmentFolderPath": "_attachments",
   "alwaysUpdateLinks": true,
