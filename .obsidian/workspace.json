@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "27. (Incomplete)AVL Trees.md",
+                "file": "27. AVL Trees (Incomplete).md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "27. (Incomplete)AVL Trees.md",
+                "file": "27. AVL Trees (Incomplete).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "27. (Incomplete)AVL Trees.md",
+                "file": "27. AVL Trees (Incomplete).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "27. (Incomplete)AVL Trees.md"
+                "file": "27. AVL Trees (Incomplete).md"
               }
             }
           }
@@ -232,11 +232,11 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "2fe6f47d623f1a7b",
+  "active": "38507858019cbb90",
   "lastOpenFiles": [
     "26. Binary Tree Representation Using A Linked List.md",
     "23. Binary Search Tree Implementation.md",
-    "27. (Incomplete)AVL Trees.md",
+    "27. AVL Trees (Incomplete).md",
     "22. Binary Tree Operations.md",
     "21. Binary Search Tree.md",
     "25. Implementation of a Binary Tree Using an Array.md",
