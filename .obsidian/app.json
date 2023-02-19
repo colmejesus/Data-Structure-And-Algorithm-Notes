@@ -11,7 +11,10 @@
     "postorder",
     "inorder",
     "levelorder",
-    "migh"
+    "migh",
+    "pos",
+    " TreeNod",
+    "que"
   ],
   "attachmentFolderPath": "_attachments",
   "alwaysUpdateLinks": true,
