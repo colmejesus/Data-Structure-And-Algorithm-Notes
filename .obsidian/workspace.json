@@ -95,7 +95,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "28. Graph Data Strucutre - Introduction.md",
+                "file": "10. Queue Data Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7698f3b50f093b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "34. Introduction to Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6417986d9cbe0ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "35. Case Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bab0df2797bbd6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "36. Asymtotic Notations.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -252,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "28. Graph Data Strucutre - Introduction.md",
+                "file": "36. Asymtotic Notations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "28. Graph Data Strucutre - Introduction.md",
+                "file": "36. Asymtotic Notations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "28. Graph Data Strucutre - Introduction.md"
+                "file": "36. Asymtotic Notations.md"
               }
             }
           }
@@ -314,17 +350,26 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "a1aeb6f61139a436",
+  "active": "9bab0df2797bbd6b",
   "lastOpenFiles": [
+    "35. Case Analysis.md",
+    "36. Asymtotic Notations.md",
+    "34. Introduction to Algorithms.md",
+    "10. Queue Data Structure.md",
+    "09. Checking for Balanced parenthesis in an expression.md",
+    "08. Implementation of Post-Fix evaluation in Java.md",
+    "07. Stack Applications.md",
+    "06. Sorting and Searching Operations on Arrays.md",
+    "05. Stack Data Structure (ADT).md",
+    "04. Two Dimentional Arrays in Java.md",
+    "28. Graph Data Strucutre - Introduction.md",
     "30. Graph Traversal - Depth First Search and Breadth First Search in Graphs.md",
     "29. Graph Representation - Adjacency Matrix & Adjacency List.md",
-    "28. Graph Data Strucutre - Introduction.md",
     "33. Linear and Quardratic Probing in Hashing and Problems associated with them.md",
     "32. Collision in Hashing and Collision Resolution.md",
     "31. Hashing.md",
     "18. Doubly Linked List.md",
     "17. Cicrular Linked List.md",
-    "07. Stack Applications.md",
     "26. Binary Tree Representation Using A Linked List.md",
     "23. Binary Search Tree Implementation.md",
     "27. AVL Trees (Incomplete).md",
@@ -332,8 +377,6 @@
     "21. Binary Search Tree.md",
     "25. Implementation of a Binary Tree Using an Array.md",
     "03. Array and Array Operations.md",
-    "13. Implementation of Circular Queue.md",
-    "24. Binary Search Tree Deletion.md",
-    "12. Circular Queue (ADT).md"
+    "13. Implementation of Circular Queue.md"
   ]
 }
